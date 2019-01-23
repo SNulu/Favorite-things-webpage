@@ -14,6 +14,9 @@ $(document).ready(function() {
 
     // $("#story").show();
     console.log("User Inputes: ", userInputes);
+    console.log("first element: ", userInputes[1]);
+    console.log("first element: ", userInputes[0]);
+    console.log("first element: ", userInputes[2]);
     event.preventDefault();
   });
 });
